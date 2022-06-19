@@ -1,8 +1,53 @@
-aside {
-    flex-box: flex-wrap;
+
+
+:root {
+
+--light-blue: #DFF6FF;
+--med-blue: #47B5FF;
+--dark-blue: #1363DF;
+--deep-blue: #06283D;
 
 }
-img {
-    radius 50%
+
+body {
+
+    background-color: var(--dark-blue);
+
+
+}
+
+header {
+
+    position: fixed;
+    display: flex;
+    justify-content: start;
+    height: 10rem;
+    width: 100%;
+    background-color: var(--light-blue);
+    padding-left: 2rem;
+    margin-left: -1rem;
+    margin-top: -1rem;
+    z-index: 3;
     
+    
+    
+
+}
+
+#myphoto {
+
+    position: absolute;
+    width: 10rem;
+    border-radius: 50%;
+
+}
+
+#links2c {
+
+    display: inline-block
+    position: end;
+    margin: auto;
+    padding: 2rem;
+
+
 }
