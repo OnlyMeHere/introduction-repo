@@ -9,6 +9,12 @@
 
 }
 
+html {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
 body {
 
     background-color: var(--dark-blue);
@@ -19,8 +25,8 @@ body {
 header {
 
     position: fixed;
-    display: flex;
-    justify-content: start;
+    display: block;
+    justify-content: space-between;
     height: 10rem;
     width: 100%;
     background-color: var(--light-blue);
@@ -34,20 +40,74 @@ header {
 
 }
 
-#myphoto {
 
-    position: absolute;
-    width: 10rem;
+figure {
+
+    display: fixed;
+    justify-content: left;
+    width: 15rem;
     border-radius: 50%;
+    border-width: 2px;
 
 }
 
-#links2c {
+nav ul {
 
-    display: inline-block
-    position: end;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: end;
     padding: 2rem;
+    line-height: 1.5rem;
 
 
+}
+
+nav li {
+
+    color: var(--dark-blue);
+
+
+
+}
+
+#aboutme {
+
+    display: block;
+
+
+    margin-top: 10rem;
+    
+
+}
+#mywork {
+
+    display: block;
+  
+  
+
+}
+
+footer {
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    height: 10rem;
+    width: 100%;
+    background-color: var(--light-blue);
+
+
+
+}
+footer ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 4rem;
 }
