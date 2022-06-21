@@ -61,7 +61,7 @@ header img {
 nav ul {
 
     display: flex;
-    flex-direction: row;
+    align-items: space-between;
     justify-content: space-evenly;
     list-style: none;
     margin: end;
@@ -74,6 +74,7 @@ nav ul {
 
 nav li {
 
+    align-content: space-around;
     color: var(--navtext);
 
 
