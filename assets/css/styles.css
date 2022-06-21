@@ -24,7 +24,7 @@ body {
 
 header {
 
-    position: relative;
+    position: sticky;
     display: flex;
     justify-content: space-between;
     height: 75px;
@@ -91,9 +91,9 @@ h2 {
 
 #aboutme {
 
-    display: flex;
-    position: absolute;
-    margin: 2vh;
+    display: inline-block;
+    position: static;
+    margin: 20px 20px auto 20px;
     text-align: end;
 
 
@@ -105,9 +105,9 @@ h2 {
 #mywork {
 
     display: flex;
-    position: relative;
+    position: static;
     justify-content: space-between;
-    margin: 2vh 10vh auto 5px;
+    margin: 20px 20px auto 20px;
     text-align: end;
     flex: 1;
   
