@@ -2,6 +2,10 @@
 
 The site is indended to introduce myself as a candidate for employment.
 
+[Here is a link to the deployed site](https://onlymehere.github.io/introduction-repo/)
+
+[Here is a link to the repository on GitHub](https://github.com/OnlyMeHere/introduction-repo)
+
 ## References:
 
 [CSS justify-content reference](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)

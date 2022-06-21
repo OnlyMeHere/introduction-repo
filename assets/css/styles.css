@@ -82,7 +82,7 @@ nav li {
 
 h2 {
 
-    position: relative;
+    position: absolute;
     text-align: start;
     color: var(--h2color)
     text-align: start
@@ -92,7 +92,7 @@ h2 {
 #aboutme {
 
     display: flex;
-    position: in-line block;
+    position: absolute;
     margin: 2vh;
     text-align: end;
 
@@ -119,35 +119,40 @@ h2 {
 
 #primaryimg {
  
+    display: flex;
+    justify-content: row;
     margin: 5rem;
-    border; 5px;
-    height: auto;
-    width: 30vh;
+    border-width: black 5px;
+    width: 75%;
+    padding: 1rem;
     flex: 1;
+    flex-wrap: wrap;
 
 }
-
-
-
-
 
 .secondaryimg {
     
+    display: flex;
+    justify-content: row;
     margin: 5rem;
-    border: 5px;
+    border-width: black 5px;
+    width: 75%;
+    padding: 1rem;
+    flex-wrap: wrap;
+
+}
+
+#img1 { https://github.com/OnlyMeHere/introduction-repo
+
+    width: 100%;
+    height: auto; 
+}
+
+ .imgs { https://github.com/OnlyMeHere/introduction-repo
+
+    width: 100%;
     height: auto;
-    width: 2vh; 
-}
-
-#img1 {
-
-    height: fit-content;
-}
-
-.imgs {
-
-    height: fit-content;
-}
+ }
 
 
 footer {
