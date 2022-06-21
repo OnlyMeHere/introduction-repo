@@ -105,16 +105,20 @@ h2 {
 #mywork {
 
     display: flex;
+    position: relative;
     justify-content: space-between;
-    margin: 2vh;
+    margin: 2vh 10vh auto 5px;
     text-align: end;
-    margin-top: 10vh;
     flex: 1;
   
 
 }
 
+#imgalign {
 
+    diplay: flex;
+    justify-content: column;
+}
 
 
 #primaryimg {
@@ -123,7 +127,7 @@ h2 {
     justify-content: row;
     margin: 5rem;
     border-width: black 5px;
-    width: 75%;
+    width: 300px;
     padding: 1rem;
     flex: 1;
     flex-wrap: wrap;
@@ -136,7 +140,7 @@ h2 {
     justify-content: row;
     margin: 5rem;
     border-width: black 5px;
-    width: 75%;
+    width: 150px;
     padding: 1rem;
     flex-wrap: wrap;
 
@@ -144,15 +148,16 @@ h2 {
 
 #img1 { https://github.com/OnlyMeHere/introduction-repo
 
-    width: 100%;
-    height: auto; 
+    width: 300px;
+    height: 150px; 
 }
 
 
  .imgs { https://github.com/OnlyMeHere/introduction-repo
 
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 75px;
+
  }
 
 
