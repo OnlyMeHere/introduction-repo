@@ -148,6 +148,7 @@ h2 {
     height: auto; 
 }
 
+
  .imgs { https://github.com/OnlyMeHere/introduction-repo
 
     width: 100%;
@@ -159,10 +160,11 @@ footer {
 
     position: fixed;
     display: flex;
+    justify-content: center;
     left: 0;
     right: 0;
     bottom: 0;
-    height: 30vh;
+    height: 10vh;
     width: 100%;
     background-color: var(--headerbg);
     z-index: 2;
