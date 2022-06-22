@@ -40,9 +40,9 @@ header {
 
 }main {
 
-    display: flex;
+    display: block;
     justify-content: center;
-    top: 50rem;
+    top: 60px;
 
 
 
@@ -81,35 +81,44 @@ nav li {
 
 }
 
-h2 {
 
-    position: absolute;
+#aboutme h2 {
+
+    margin-top: 20px;
     text-align: start;
-    color: var(--h2color)
-    text-align: start
+    color: var(--h2color);
+}
 
-}   
+#aboutme p {
+
+    margin-left: 200px;
+    color: var(--h2color);
+}
 
 #aboutme {
 
-    display: inline-block;
-    position: static;
-    margin: 20px 20px auto 20px;
-    text-align: end;
-
-
-    margin-top: 10rem;
-
-    
-
-}
-#mywork {
-
-    display: flex;
+    display: block;
     position: static;
     justify-content: space-between;
-    margin: 20px 20px auto 20px;
+    margin-top: 20px;
     text-align: end;
+
+
+}
+
+#mywork h2 {
+
+    text-align: start;
+    color: var(--h2color)
+}
+
+#mywork {
+
+    display: block; 
+    position: static;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 50px;
     flex: 1;
   
 
@@ -117,7 +126,8 @@ h2 {
 
 #imgalign {
 
-    diplay: flex;
+    display: block;
+    position: static;
     justify-content: column;
 }
 
@@ -147,14 +157,14 @@ h2 {
 
 }
 
-#img1 { https://github.com/OnlyMeHere/introduction-repo
+#img1 {
 
     width: 300px;
     height: 150px; 
 }
 
 
- .imgs { https://github.com/OnlyMeHere/introduction-repo
+ .imgs { 
 
     width: 150px;
     height: 75px;
@@ -164,7 +174,7 @@ h2 {
 
 footer {
 
-    position: fixed;
+    position: static;
     display: flex;
     justify-content: center;
     left: 0;
@@ -187,6 +197,13 @@ footer ul {
     padding-left: 4vh;
 }
 
+/* --Cell Phone screen width-- */
+@media screen and (max-width: 480px) {
+  
+    
+}
+
+/* --Tablet Screen Width-- */
 @media screen and (max-width: 768px ){
 
 
