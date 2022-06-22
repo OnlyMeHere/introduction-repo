@@ -38,7 +38,8 @@ header {
     
     
 
-}main {
+}
+main {
 
     display: block;
     justify-content: center;
@@ -199,13 +200,25 @@ footer ul {
 
 /* --Cell Phone screen width-- */
 @media screen and (max-width: 480px) {
-  
+ 
+ main {
+
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+ }   
     
 }
 
 /* --Tablet Screen Width-- */
 @media screen and (max-width: 768px ){
 
+main {
 
+    display: flex;
+    justify-content: column;
+    
+}
     
 }
